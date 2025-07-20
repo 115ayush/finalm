@@ -1,5 +1,5 @@
 // riffhi-smartsho/src/services/greenbitsService.ts
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://smartsho-1.onrender.com/api';
 
 export async function fetchGreenBits(userId: string) {
   const res = await fetch(`${API_BASE}/greenbits/${userId}`);
